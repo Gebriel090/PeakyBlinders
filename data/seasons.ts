@@ -3,38 +3,38 @@
 export const seasonsData = [
   {
     id: "s1",
-    title: "Season 1",
-    subtitle: "The Beginning",
+    title: "Temporada 1",
+    subtitle: "O Início",
     image: "/textures/download1.png", // Tommy no Cavalo (S1)
-    desc: "Thomas Shelby prepares to fix a horse race and gets involved with stolen guns.",
+    desc: "Thomas Shelby se prepara para fraudar uma corrida de cavalos e se envolve com armas roubadas.",
   },
   {
     id: "s2",
-    title: "Season 6",
-    subtitle: "London Calling",
+    title: "Temporada 2", // Corrigido de "Season 6" para manter a coerência com a descrição
+    subtitle: "O Chamado de Londres",
     image: "/textures/download5.png", // Tommy Sentado (S2)
-    desc: "The Shelbys expand their empire south and take over London.",
+    desc: "Os Shelbys expandem seu império para o sul e conquistam Londres.",
   },
   {
     id: "movie",
     title: "O Homem Imortal",
-    subtitle: "The Movie",
+    subtitle: "O Filme",
     image: "/textures/tommy-horse.jpg", // Filme Tommy com arma
-    desc: "The epic conclusion. The war is not over until the immortal man falls.",
+    desc: "A conclusão épica. A guerra não termina até que o homem imortal caia.",
     isHighlight: true, // Flag para destacar o filme
   },
   {
     id: "s3",
-    title: "Season 3",
-    subtitle: "International Business",
-    image: "/textures/download2.png", // Thomas gets involved in an international arms deal with the Russians.
-    desc: "Thomas gets involved in an international arms deal with the Russians.",
+    title: "Temporada 3",
+    subtitle: "Negócios Internacionais",
+    image: "/textures/download2.png",
+    desc: "Thomas se envolve em um acordo internacional de armas com os russos.",
   },
   {
     id: "s4",
-    title: "Season 5",
-    subtitle: "The Vendetta",
+    title: "Temporada 4", // Corrigido de "Season 5" para manter a coerência com a descrição
+    subtitle: "A Vingança",
     image: "/textures/download4.png", // Arma na mão
-    desc: "The changrettas come for the Shelbys. It's back to Small Heath.",
+    desc: "Os Changrettas vêm atrás dos Shelbys. É hora de voltar para Small Heath.",
   },
 ];

@@ -53,7 +53,7 @@ export default function SeasonContent() {
             </p>
 
             <button className="mt-10 px-8 py-3 bg-transparent border border-gray-600 text-white uppercase tracking-widest hover:bg-peaky-red hover:border-peaky-red transition-all w-max">
-              Watch Trailer
+              Assistir Trailer
             </button>
           </div>
         </section>

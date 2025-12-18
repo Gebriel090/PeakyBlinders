@@ -44,7 +44,7 @@ export default function Experience() {
             <SeasonContent />
             <footer className="w-full py-24 text-center bg-black border-t border-red-900/20">
               <p className="text-red-800 text-[10px] font-serif tracking-[0.5em] uppercase mb-4 opacity-50">
-                By Order of the Peaky Blinders
+                Por Ordem dos Peaky Blinders
               </p>
             </footer>
           </Scroll>

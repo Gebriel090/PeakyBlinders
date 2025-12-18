@@ -4,26 +4,26 @@ import { motion } from "framer-motion";
 const episodes = [
   {
     id: 1,
-    title: "Episode 1",
-    desc: "Thomas Shelby prepares to fix a horse race.",
+    title: "Episódio 1",
+    desc: "Thomas Shelby se prepara para fraudar uma corrida de cavalos.",
     img: "https://image.tmdb.org/t/p/w500/vUUqzWa2LnHIVqkaKVlVGkWc7Wx.jpg",
   },
   {
     id: 2,
-    title: "Episode 2",
-    desc: "Peaky Blinders start a war with the Lees.",
+    title: "Episódio 2",
+    desc: "Os Peaky Blinders iniciam uma guerra com a família Lee.",
     img: "https://image.tmdb.org/t/p/w500/2jX1414vD2R8f8Xy60z6484.jpg",
   },
   {
     id: 3,
-    title: "Episode 3",
-    desc: "Thomas travels to Cheltenham races.",
+    title: "Episódio 3",
+    desc: "Thomas viaja para as corridas de Cheltenham.",
     img: "https://image.tmdb.org/t/p/w500/9G1R4x7067888.jpg",
   }, // Url ficticia para exemplo
   {
     id: 4,
-    title: "Episode 4",
-    desc: "The war with the Lees escalates.",
+    title: "Episódio 4",
+    desc: "A guerra com os Lees se intensifica.",
     img: "https://image.tmdb.org/t/p/w500/e90.jpg",
   },
 ];
@@ -39,13 +39,15 @@ export default function SeasonsSection() {
         className="mb-10 border-l-4 border-peaky-red pl-6"
       >
         <h3 className="text-peaky-red uppercase tracking-widest text-sm font-bold mb-2">
-          The Story Continues
+          A História Continua
         </h3>
-        <h2 className="text-4xl md:text-6xl font-serif text-white">Season 1</h2>
+        <h2 className="text-4xl md:text-6xl font-serif text-white">
+          Temporada 1
+        </h2>
         <div className="flex gap-4 mt-4 text-gray-400 text-sm font-sans uppercase tracking-wider">
           <span>2013</span>
           <span>•</span>
-          <span>6 Episodes</span>
+          <span>6 Episódios</span>
           <span>•</span>
           <span className="border border-gray-600 px-2 rounded text-xs py-0.5">
             18+
